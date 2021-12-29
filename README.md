@@ -17,11 +17,8 @@ composer update
 # install npm dependencies
 npm install
 # generate a key for your application
-php artisan key:generate
-# create a local MySQL database (make sure you have MySQL up and running)
-mysql -u root
-> create database chat_db;
-> exit;
+php artisan key:generate 
+
 # add the database connection config to your .env file
 DB_CONNECTION=mysql
 DB_DATABASE=inventory
